@@ -96,7 +96,7 @@ STATIC_URL = os.getenv('STATIC_URL', '/static/')
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "templates"),
-    os.path.join(BASE_DIR, "../olya-frontend/"),
+    os.path.join(BASE_DIR, "assets"),
 )
 
 MEDIA_ROOT = os.getenv("MEDIA_ROOT", os.path.join(BASE_DIR, 'media'))
