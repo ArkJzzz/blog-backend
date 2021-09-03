@@ -95,7 +95,6 @@ USE_TZ = True
 STATIC_URL = os.getenv('STATIC_URL', '/static/')
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "templates"),
     os.path.join(BASE_DIR, "assets"),
 )
 
